@@ -12,7 +12,7 @@
 ## 下载源代码
 
 ```
-git clone 
+git clone https://github.com/jklincn/acn_assignment
 ```
 
 ## 安装 ns-3
