@@ -15,6 +15,9 @@ if [[ ! -d "$ns_path" ]];then
     echo "NOTE: Installation details can be found in README.md." 
     exit 
 fi
+
 cp $script_name $ns_path"/ns-3.40/scratch"
-cd $ns_path"/ns-3.40" && ./ns3 run "scratch/"$script_name
+cd $ns_path"/ns-3.40"
+./ns3 run "scratch/"$script_name
+rm "scratch/"$script_name
 
