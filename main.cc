@@ -1,5 +1,3 @@
-#include "ns-allinone-3.40/ns-3.40/src/applications/helper/bulk-send-helper.h"
-#include "ns-allinone-3.40/ns-3.40/src/applications/model/bulk-send-application.h"
 #include "ns3/applications-module.h"
 #include "ns3/core-module.h"
 #include "ns3/internet-module.h"
