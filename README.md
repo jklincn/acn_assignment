@@ -33,3 +33,10 @@ cd ns-allinone-3.40/ns-3.40
 ./ns3 run hello-simulator
 ```
 
+## 运行代码
+
+```
+cd ../..   # 返回到 acn_assignment 目录下
+./run.sh main.cc
+```
+
